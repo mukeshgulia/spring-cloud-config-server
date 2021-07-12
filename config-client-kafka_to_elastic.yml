@@ -24,7 +24,7 @@ kafka-consumer-config:
   specific-avro-reader-key: specific.avro.reader
   specific-avro-reader: true
   batch-listener: true
-  auto-startup: false #start after checking topic is already there
+  auto-startup: true #start after checking topic is already there
   concurrency-level: 3
   session-timeout-ms: 10000
   heartbeat-interval-ms: 3000
